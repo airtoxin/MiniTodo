@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="./css/main.css" media="all">
+
+<div id="todo">
+    <h1>{{title}}</h1>
+    <input type="text" placeholder="input todo" v-model="newTodoName" v-on="keyup: addTodo() | key enter"/>
+    <ul>
+        <li v-repeat="todos" v-on="click: done = !done" class="{{done ? 'done' : ''}}">
+            <p>{{todoName}} <button v-on="click: removeTodo( this )">remove</button></p>
+        </li>
+    </ul>
+    <button v-on="click: removeAll()">remove all done</button>
+</div>
+
+<script type="text/javascript" src="./js/vue.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>

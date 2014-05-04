@@ -1,4 +1,4 @@
 MiniTodo
 ========
 
-node-webkit + vue.js demo
+node-webkit + vue.js build with nuwk! demo
