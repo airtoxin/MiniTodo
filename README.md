@@ -4,6 +4,9 @@ MiniTodo
 
 ![](./READMEIMAGE/app.png)
 
+# Download
+[Download](https://github.com/airtoxin/MiniTodo/releases)
+
 # Build
 
 1. install [node-webkit](https://github.com/rogerwang/node-webkit#downloads)
